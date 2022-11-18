@@ -12,3 +12,16 @@ pnpm add eslint @bohecola/eslint-config -D
   "extends": "@bohecola"
 }
 ```
+
+## Config VS Code auto fix
+Install [VS Code ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and create .vscode/settings.json
+
+```json
+{
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
+```
