@@ -5,19 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install",
-    "commitlint": "commitlint --config commitlint.config.js -e -V",
     "release": "bump --commit --push --tag && pnpm publish --access public"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix"
-    ]
   },
   "repository": {
     "type": "git",
@@ -36,10 +24,6 @@
   "homepage": "https://github.com/bohecola/eslint-config#readme",
   "devDependencies": {
     "@bohecola/eslint-config": "^0.1.1",
-    "@commitlint/cli": "^17.2.0",
-    "@commitlint/config-conventional": "^17.2.0",
-    "eslint": "^8.27.0",
-    "husky": "^8.0.0",
-    "lint-staged": "^13.0.3"
+    "eslint": "^8.27.0"
   }
 }
