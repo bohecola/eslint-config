@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "commitlint": "commitlint --config commitlint.config.js -e -V"
+    "commitlint": "commitlint --config commitlint.config.js -e -V",
+    "release": "bump --commit --push --tag && pnpm publish --access public"
   },
   "husky": {
     "hooks": {
@@ -14,7 +15,9 @@
     }
   },
   "lint-staged": {
-    "*.js": ["eslint --fix", "git add"]
+    "*.js": [
+      "eslint --fix"
+    ]
   },
   "repository": {
     "type": "git",
