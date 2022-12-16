@@ -1,0 +1,24 @@
+{
+  "name": "@bohecola/eslint-config-react",
+  "version": "0.1.3",
+  "description": "",
+  "author": "bohecola <bohecola@outlook.com> (https://github/bohecola/)",
+  "license": "MIT",
+  "homepage": "https://github.com/bohecola/eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@bohecola/eslint-config-basic": "workspace:*",
+    "@bohecola/eslint-config-ts": "workspace:*",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0"
+  }
+}
