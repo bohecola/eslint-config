@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@bohecola/eslint-config": "*",
+    "@jsdevtools/version-bump-prompt": "^6.1.0",
     "eslint": "^8.27.0"
   }
 }
