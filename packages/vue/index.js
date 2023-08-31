@@ -10,21 +10,21 @@ module.exports = {
 		{
 			files: ["*.vue"],
 			parser: "vue-eslint-parser",
-			parserOptions: { parser: "@typescript-eslint/parser", },
+			parserOptions: { parser: "@typescript-eslint/parser" },
 			rules: {
 				"no-unused-vars": "off",
 				"no-undef": "off",
 				...(TS
 					? { "@typescript-eslint/no-unused-vars": "off" }
-					: null),
-			},
-		},
+					: null)
+			}
+		}
 	],
 	extends: [
 		"plugin:vue/vue3-recommended",
 		TS
 			? "@bohecola/eslint-config-ts"
-			: "@bohecola/eslint-config-basic",
+			: "@bohecola/eslint-config-basic"
 	],
 	rules: {}
 };
