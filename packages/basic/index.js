@@ -122,16 +122,16 @@ module.exports = {
 	},
 	rules: {
 		// 缩进风格
-		"indent": ["error", "tab", { SwitchCase: 1 }],
+		indent: ["error", "tab", { SwitchCase: 1 }],
 		"no-mixed-spaces-and-tabs": ["off"],
 		"space-infix-ops": ["error", { int32Hint: false }],
 		// 链式调用换行
 		"newline-per-chained-call": ["error", { ignoreChainWithDepth: 2 }],
 		// 引号风格
-		"quotes": ["error", "double"],
-		"quote-props": ["error", "consistent-as-needed"],
+		quotes: ["error", "double"],
+		"quote-props": ["error", "as-needed"],
 		// 结尾分号
-		"semi": ["error", "always"],
+		semi: ["error", "always"],
 		// 末尾逗号
 		"comma-dangle": ["error", {
 			arrays: "never",
