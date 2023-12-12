@@ -184,7 +184,7 @@ module.exports = {
 		"array-element-newline": ["error", "consistent"],
 		// 对象风格配置
 		"object-curly-newline": ["error", {
-			ObjectExpression: { multiline: true, consistent: false },
+			ObjectExpression: { multiline: true, consistent: true },
 			ObjectPattern: { multiline: true },
 			ImportDeclaration: { multiline: true },
 			ExportDeclaration: { multiline: true, minProperties: 3 }
