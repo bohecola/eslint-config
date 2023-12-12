@@ -1,6 +1,6 @@
 {
   "name": "@bohecola/eslint-config-monorepo",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": true,
   "author": "bohecola <bohecola@outlook.com> (https://github/bohecola/)",
   "license": "MIT",
